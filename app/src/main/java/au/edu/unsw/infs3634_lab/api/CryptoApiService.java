@@ -4,6 +4,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface CryptoApiService {
-    @GET("com.squareup.retrofit2:retrofit:2.9.0") // Replace this with the actual API endpoint URL
+    @GET("com.squareup.retrofit2:retrofit:2.9.0")
     Call<Response> getCryptocurrencies();
 }
